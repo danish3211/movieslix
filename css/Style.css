@@ -1,0 +1,123 @@
+body{
+    /* background-color: #222222; */
+}
+.under-nav
+{
+display: flex;
+justify-content: center;
+}
+.searchbox
+{
+    border:  1px solid #ccc;
+    width: 300px;
+    padding: 4px 4px;
+    border-radius: 6px;
+}
+.searchbox i
+{
+    margin-left: 5px;
+    color: crimson;
+}
+.searchbox input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 10px;
+    caret-color: #CCC;
+    color: #fff;
+}
+.nav li  { 
+/*  display: block; */
+    margin: 0px 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #cccccc80 ,  0 0 6px #cccccc49 ;
+    transition: all 0.66s;
+}
+.nav li:last-child
+{
+
+    background-color: crimson;
+    box-shadow: 0 0 4px #dc143c2a ,  0 0 6px #dc143c2a  ;
+}
+.nav li:hover
+{
+    background-color: crimson;
+    box-shadow: 0 0 4px #dc143c2a ,  0 0 6px #dc143c2a  ;
+}
+.nav li i{
+    display:  grid;
+    place-items: center;
+}
+.nav li .dropdown-menu
+{
+border-radius: 0;
+background: #222222;
+}
+.nav li .dropdown-menu li{
+    border: 0;
+    box-shadow: 0px 0px 0px transparent;
+    border-radius: 0px;
+    border-bottom:  1px solid #ccc;
+}
+.dropdown-menu li .dropdown-item{
+    color: #ccc;
+}
+.dropdown-menu li .dropdown-item:hover
+{
+    color: #ccc;
+    background-color: rgba(0,0,0,0.56);
+}
+a{
+    text-decoration: none;
+}
+
+.card img
+{
+    object-fit: contain;
+    background-color: #222222;
+    height: 300px;
+}
+.card .card-body p
+{
+    color: #252525;
+    font-size: 18px;
+    text-decoration: none;
+}
+.card .card-body .card-text:hover
+{
+    color: crimson;
+}
+.movies
+{
+    /* background-color: #222222; */
+}
+.left-right 
+{    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    background-color: #222222;
+}
+
+.right{
+    background-color: #222222;
+}
+.left-right a{
+    color: #222222;
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+}
+.left-right i{
+    color: crimson;
+    height: 50px;
+    padding:0px 5px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
